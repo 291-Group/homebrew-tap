@@ -1,13 +1,13 @@
 cask "lan-sheriff" do
-  version "1.0.0"
+  version "1.0.1"
 
   on_arm do
-    sha256 "417ff3e861a4d52ed3151e29faf3a9587bdc14b722bacd4e722b99b705217f77"
-    url "https://github.com/291-Group/LAN-Sheriff/releases/download/v1.0.0/lan-sheriff_1.0.0_darwin_arm64.tar.gz"
+    sha256 "488664bb3af591d0df667166d111f6254beee9fee7039308db0ff282c206c481"
+    url "https://github.com/291-Group/LAN-Sheriff/releases/download/v1.0.1/lan-sheriff_1.0.1_darwin_arm64.tar.gz"
   end
   on_intel do
-    sha256 "537351b5518ce1cd3aac93a1143f887e55936a4618d128a807b9a90b72ee0f8d"
-    url "https://github.com/291-Group/LAN-Sheriff/releases/download/v1.0.0/lan-sheriff_1.0.0_darwin_amd64.tar.gz"
+    sha256 "98eee32dbd44293fcd2880e1f7407be45ae7f74eea1d0a116323a51020bcbd35"
+    url "https://github.com/291-Group/LAN-Sheriff/releases/download/v1.0.1/lan-sheriff_1.0.1_darwin_amd64.tar.gz"
   end
 
   name "LAN Sheriff"
