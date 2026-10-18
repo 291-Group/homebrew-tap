@@ -7,10 +7,10 @@ class LanOrangutan < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/291-Group/LAN-Orangutan/releases/download/v3.4.2/orangutan-darwin-arm64.tar.gz"
-      sha256 "7fe673f97a50af3da350b818c1f6f992d412c01fcb8844add3a5ccd75b35970d"
+      sha256 "924339abd4b87e3b9af84db52d25fc6ced8f835cb252c375615f976d8076abf4"
     else
       url "https://github.com/291-Group/LAN-Orangutan/releases/download/v3.4.2/orangutan-darwin-amd64.tar.gz"
-      sha256 "2b5395d7738622fa1e6190d021fe91743fc25e7f0b4adaab1aa0348ccd4d8443"
+      sha256 "a4a58ac8e98b98abeee40bee24d327ba5f29a2e29002bfc67fc99ba867860777"
     end
   end
 
