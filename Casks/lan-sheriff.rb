@@ -2,11 +2,11 @@ cask "lan-sheriff" do
   version "1.0.3"
 
   on_arm do
-    sha256 "b40d91e4f480139b47f4ee02b9dc3bbe4aefa2a8864f736d4d5aea77c2f1f1f9"
+    sha256 "c0a1c2c8915a9454fd4b2ccab1bb6424b0d2a3f0c580bec2aa44bf8df42cc8ae"
     url "https://github.com/291-Group/LAN-Sheriff/releases/download/v1.0.3/lan-sheriff_1.0.3_darwin_arm64.tar.gz"
   end
   on_intel do
-    sha256 "260e39a8ac76b5417dddf27b922276fb636fc183be57ce463c536c63de747a87"
+    sha256 "be5484f4e64c057a02422efce4ea9a719138c53c9222b7aa1c3f4cffdcc22692"
     url "https://github.com/291-Group/LAN-Sheriff/releases/download/v1.0.3/lan-sheriff_1.0.3_darwin_amd64.tar.gz"
   end
 
