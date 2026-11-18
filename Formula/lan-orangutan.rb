@@ -1,16 +1,16 @@
 class LanOrangutan < Formula
   desc "Network discovery and device tracking tool"
   homepage "https://github.com/291-Group/LAN-Orangutan"
-  version "3.4.2"
+  version "4.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/291-Group/LAN-Orangutan/releases/download/v3.4.2/orangutan-darwin-arm64.tar.gz"
-      sha256 "924339abd4b87e3b9af84db52d25fc6ced8f835cb252c375615f976d8076abf4"
+      url "https://github.com/291-Group/LAN-Orangutan/releases/download/v4.0.0/orangutan-darwin-arm64.tar.gz"
+      sha256 "af4cebec755e0c9fe7ac7dc634c69acde7a68d6f672d5ebd7b2422c1363f6da4"
     else
-      url "https://github.com/291-Group/LAN-Orangutan/releases/download/v3.4.2/orangutan-darwin-amd64.tar.gz"
-      sha256 "a4a58ac8e98b98abeee40bee24d327ba5f29a2e29002bfc67fc99ba867860777"
+      url "https://github.com/291-Group/LAN-Orangutan/releases/download/v4.0.0/orangutan-darwin-amd64.tar.gz"
+      sha256 "e9166b5f6aa65ae163d9f41724bfcb9d2220beea6e4c354e2c2c2bc314f6d35b"
     end
   end
 
