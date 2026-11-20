@@ -16,11 +16,9 @@ cask "lan-sheriff" do
 
   binary "lan-sheriff"
 
-  postflight do
+  postflight_steps do
     # Unsigned, so macOS quarantines it and Gatekeeper reports it as damaged.
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{staged_path}/lan-sheriff"],
-                   must_succeed: false
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{staged_path}}/lan-sheriff"], must_succeed: false
   end
 
   # Uninstalling leaves the database alone; `brew uninstall --zap` removes it.

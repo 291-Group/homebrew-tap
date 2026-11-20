@@ -1,8 +1,9 @@
 class LanOrangutan < Formula
   desc "Network discovery and device tracking tool"
   homepage "https://github.com/291-Group/LAN-Orangutan"
-  version "4.0.0"
   license "MIT"
+
+  depends_on "nmap"
 
   on_macos do
     if Hardware::CPU.arm?
@@ -13,8 +14,6 @@ class LanOrangutan < Formula
       sha256 "3589e131682b4273c3d85303459b40f36eb5c1117bb0d9ea2581e4c510578210"
     end
   end
-
-  depends_on "nmap"
 
   def install
     bin.install "orangutan-darwin-arm64" => "orangutan" if Hardware::CPU.arm?
